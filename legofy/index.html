@@ -1,0 +1,60 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Legofy</title>
+
+<!-- <link rel="stylesheet" href="default.css"> -->
+<style>
+h1 {
+	text-align: center;
+}
+#container {
+	min-height: 150px;
+	width: 350px;
+	border: 1px solid blue;
+	margin: 10px;
+	padding: 10px;
+}
+img {
+	max-width: 300px;
+}
+img[src=''] {
+	display: none;
+}
+</style>
+<script src="/jquery.js"></script>
+<script src="legofy.js"></script>
+<script src="dragdrop.js"></script>
+
+<script>
+$(function () {
+	dropbox = document.getElementById("container")
+	dropbox.addEventListener("dragenter", dragenter, false)
+	dropbox.addEventListener("dragover", dragover, false)
+	dropbox.addEventListener("drop", drop, false)
+})
+
+</script>
+</head>
+<body>
+
+<!-- <img src="beachy-head.jpg" class="lego" />
+<div class="original"></div> -->
+
+	<div id="container">
+		<input type='file' id="dropbox" onchange="handleFiles(this.files)" />
+		<img src="" />
+	</div>
+
+<!-- <a href="http://www.lego.com/en-gb" target="_blank">
+	<img src="lego.jpg" class="logo" alt="Lego.com">
+</a> -->
+
+<!-- <a href="https://github.com/Wildhoney/Legofy" target="_blank">
+	<img class="fork" src="left-grey@2x.png" alt="Fork me on GitHub.com">
+</a> -->
+
+
+
+</body>
+</html>

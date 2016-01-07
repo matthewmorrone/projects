@@ -1,0 +1,33 @@
+<html><head>
+<title>Persist</title>	 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="psi.ico" rel="shortcut icon" type="image/x-icon">
+<script src="http://code.jquery.com/jquery-2.1.4.js"></script><style type="text/css"></style><style type="text/css"></style><style type="text/css"></style>
+<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script src="//cdn.rawgit.com/namuol/cheet.js/master/cheet.min.js" type="text/javascript"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+<script>
+MutationObserver = window.MutationObserver || window.WebKitMutationObserver, log = console.log.bind(console)
+$(function() {
+	var observer = new MutationObserver(function(mutations, observer) {
+		if (window.location.protocol.includes("http")) {
+			$.post("/api.php", 
+			{mode: "write", handle:"persist/index.html", content: $("html")[0].outerHTML, debug: true}, 
+			function(d) {
+				log(mutations, Date.now())
+			})
+		}
+	})
+	observer.observe(document, {
+		subtree: true,
+		childList: true,
+		attributes: true,
+		characterData: true
+	})
+})
+</script>
+</head>
+<body contenteditable="true">Hello. My name is Matt. What do you think?&nbsp;<!-- data:text/html, <body contenteditable style="font: 2rem/1.5 monospace;max-width:60rem;margin:0 auto;padding:4rem;"> --><!-- data:text/html, <html contenteditable> --><!-- data:text/html, <html><head><link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'><style type="text/css"> html { font-family: "Open Sans" } * { -webkit-transition: all linear 1s; }</style><script>window.onload=function(){var e=false;var t=0;setInterval(function(){if(!e){t=Math.round(Math.max(0,t-Math.max(t/3,1)))}var n=(255-t*2).toString(16);document.body.style.backgroundColor="#ff"+n+""+n},1e3);var n=null;document.onkeydown=function(){t=Math.min(128,t+2);e=true;clearTimeout(n);n=setTimeout(function(){e=false},1500)}}</script></head><body contenteditable style="font-size:2rem;line-height:1.4;max-width:60rem;margin:0 auto;padding:4rem;"> --><!-- http://a5.gg/ --><!-- data:text/html, <style type="text/css">#e{position:absolute;top:0;right:0;bottom:0;left:0;}</style><div id="e"></div><script src="http://d1n0x3qji82z53.cloudfront.net/src-min-noconflict/ace.js" type="text/javascript" charset="utf-8"></script><script>var e=ace.edit("e");e.setTheme("ace/theme/monokai");e.getSession().setMode("ace/mode/ruby");</script> --><!-- data:text/html, <style>html,body{margin: 0; padding: 0;}</style><textarea style="font-size: 1.5em; line-height: 1.5em; background: %23000; color: %233a3; width: 100%; height: 100%; border: none; outline: none; margin: 0; padding: 90px;" autofocus placeholder="wake up Neo..." /> --><!-- data:text/html, <title>Text Editor</title><body contenteditable style="font-size:2rem;line-height:1.4;max-width:60rem;margin:0 auto;padding:4rem;"> --><!-- <!DOCTYPE html><head><meta charset="utf-8"><title>TextEditorLocal</title><script>window.onload=function(){f1()}; 
+function f1(){a=window.localStorage['e'];if(a) document.body.innerHTML=a};function f2(t,e){if(e.keyCode==13){window.localStorage['e']=t.innerHTML}}</script>
+<body contenteditable style="font-size:2rem;line-height:1.4;max-width:60rem;margin:0 auto;padding:4rem;word-wrap:break-word;background:black;color:green;" spellcheck="false" onkeypress="f2(this,event);"></body></html> --><!-- data:text/html;charset=utf-8, <title>TextEditor</title> <link rel="shortcut icon" href="http://g.etfv.co/https://docs.google.com"/> <style> html{height: 100%;} body{background: -webkit-linear-gradient(#f0f0f0, #fff); padding: 3%; height: 94%;} .paper { font: normal 12px/1.5 "Lucida Grande", arial, sans-serif; width: 50%; height: 80%; margin: 0 auto; padding: 6px 5px 4px 42px; position: relative; color: #444; line-height: 20px; border: 1px solid #d2d2d2; background: #fff; background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 4px; background: -webkit-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px; background: -moz-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px; background: -ms-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px; background: -o-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px; background: linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px; -webkit-background-size: 100% 20px; -moz-background-size: 100% 20px; -ms-background-size: 100% 20px; -o-background-size: 100% 20px; background-size: 100% 20px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.07); -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.07); box-shadow: 0 1px 2px rgba(0,0,0,0.07); } .paper::before { content: ''; position: absolute; width: 4px; top: 0; left: 30px; bottom: 0; border: 1px solid; border-color: transparent #efe4e4; } textarea{display: block; width:94%;margin:0 auto;padding:3.8% 3%; border: none; outline: none; height: 94%; background: transparent; line-height: 20px;} </style> <body spellcheck="false"> <div class="paper"> <textarea autofocus="autofocus"></textarea> </div> </body> </html> --></body></html>

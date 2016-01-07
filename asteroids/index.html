@@ -1,0 +1,429 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<title>Asteroids</title>
+</head>
+<body>
+	<div class="container">
+		<div class="navbar ">
+      <div class="navbar-inner">
+        <div class="container">
+            <a class="brand" href="/"> Clay Murray's Web Adventures</a>
+          <ul class="nav">
+            <li><a href="/">Home</a></li>
+            <li><a href="#">Sites</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Games <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="http://cmwebadventures.com/bullet-dodge">Bullet Dodge</a></li>
+                    <li><a href="http://cmwebadventures.com/asteroids">Asteroids</a></li>
+                    <li><a href="http://github.com/powerc9000/head-on.js">Head-On.js</a></li>
+                </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+		<div class="page-header">
+			<h1>Asteroids <small> The most basic game in, now in javascript</small></h1>
+		</div>
+		<canvas id="canvas"></canvas>  
+		<div class="row">
+			<button class="btn btn-primary btn-large" onclick="start();">Start Game</button>
+		</div>
+	</div>
+	
+
+<script type="text/javascript" src="js/moustrap.js"></script>
+<script type="text/javascript">
+(function(window){
+	var canvas = document.getElementById("canvas"),
+	ctx = canvas.getContext("2d"),
+	ship = {
+		x: 250 - 16,
+		y: 250 - 16,
+		speed: 10,
+		angle: 0,
+		vx: 0,
+		vy: 0,
+		rotate_speed: 200,
+		canShoot: true
+		//width:32,
+		//height:32
+	},
+	asteriods = [],
+	asteriod = function(values){
+		var a = Object.create(asteriod.prototype), i;
+		for(i  in values){
+			if(values.hasOwnProperty(i)){
+				a[i] = values[i];
+			}
+			
+		}
+		return a;
+	},
+	bullets = [],
+	bullet = function(values,callback){
+		var b = Object.create(bullet.prototype), i;
+		for(i  in values){
+			b[i] = values[i];
+		}
+		bullets.push(b);
+		return b;
+	},
+	reset = function(){
+		bullets = [];
+		asteriods = [];
+		levels = [
+			{asteriods:3, started:false, finished:false},
+			{asteriods:5, started:false, finished:false},
+			{asteriods:7, started:false, finished:false}
+		];
+		level = 0;
+		ship.x = 250 -16;
+		ship.y = 250 -16;
+		ship.angle = 0;
+		ship.vx = 0;
+		ship.vy = 0;
+		ship.canShoot = true;
+		gamestate.stopped = true;
+	},
+	start = function(){
+		gamestate.stopped = false;
+		gamestate.gameOver = false;
+	},
+	randInt = function(min, max) {
+    	return Math.floor(Math.random() * (max - min + 1)) + min;
+	},
+	intersects = function(ob1,ob2){
+            var x1, x2, y1, y2, w1, w2, h1, h2;
+            x1 = ob1.x;
+            x2 = ob2.x;
+            y1 = ob1.y;
+            y2 = ob2.y;
+            w1 = ob1.width;
+            w2 = ob2.width;
+            h1 = ob1.height;
+            h2 = ob2.height;
+            w1 += x1;
+            w2 += x2;
+
+            if(w2 < x1 || w1 < x2){
+                return false;
+            }
+
+            h1 += y1;
+            h2 += y2;
+
+            if(h2 < y1 || h1 < y2){
+                return false;
+            }
+            return true;
+        },
+	levels = [
+		{asteriods:3, started:false, finished:false},
+		{asteriods:5, started:false, finished:false},
+		{asteriods:7, started:false, finished:false}
+	],
+	gamestate = {gameOver:false, stopped:true},
+	current_level = 0,
+	keysDown = {},
+	friction = 0.95,
+	loader,
+	images_loaded = false;
+
+	asteriod.prototype = {
+		size:"large",
+		width:64,
+		height:64
+	};
+
+	bullet.prototype = {
+		speed:300,
+		width:2,
+		height:2
+	}
+
+	
+	canvas.width = 500;
+	canvas.height = 500;
+	//loader function to load all nessisary images
+	loader = function(images){
+		var timeout;
+		var loaded = 0;
+		var total = 0;
+		images.forEach(function(image){
+			var img, imgs;
+			imgs = image.images;
+			image.entity.images = {};
+			for(i in imgs){
+				if(imgs.hasOwnProperty(i)){
+					total += 1;
+					img = new Image();
+					img.src = imgs[i]
+					image.entity.images[i] = img;
+					img.onload = function(){
+						if(image.callback){
+							image.callback(img);
+						}
+						loaded += 1;
+					}
+				}
+			}
+		});
+		timeout = setInterval(function(){
+			if(total === loaded){
+				images_loaded = true;
+				clearInterval(timeout);
+			}
+			
+		},1);
+	}
+	loader([
+			{
+				entity: ship,
+				images: {
+					main:"img/ship.png"
+				},
+				callback:function(img){
+					ship.width = img.width; ship.height = img.height;
+				}
+			},
+
+			{
+				entity: asteriod,
+				images: {
+					large:"img/asteriod_large.png",
+					medium: "img/asteriod_medium.png",
+					small: "img/asteriod_small.png"
+				}
+			}
+		]);
+
+	//direction bindings
+	//top
+	Mousetrap.bind("up", function(){
+		keysDown.up = true
+	}, 'keydown');
+	Mousetrap.bind("up", function(){
+		delete keysDown.up
+	}, 'keyup');
+	//right
+	Mousetrap.bind("right", function(){
+		keysDown.right = true
+	}, 'keydown');
+	Mousetrap.bind("right", function(){
+		delete keysDown.right
+	}, 'keyup');
+	//left
+	Mousetrap.bind("left", function(){
+		keysDown.left = true
+	}, 'keydown');
+	Mousetrap.bind("left", function(){
+		delete keysDown.left
+	}, 'keyup');
+
+	Mousetrap.bind("space", function(){
+		keysDown.space = true
+	}, 'keydown');
+	Mousetrap.bind("space", function(){
+		delete keysDown.space
+	}, 'keyup');
+
+	var update = function(modifier){
+		if(gamestate.stopped){
+			return;
+		}
+		if(gamestate.gameOver){
+			reset();
+			return;
+		}
+		if(!levels[current_level].started){
+			var i;
+			for(i=0; i < levels[current_level].asteriods; i+=1){
+				asteriods.push(asteriod(
+					{
+						vx: Math.sin(randInt(0,2*Math.PI)) * (randInt(15,20) * modifier),
+						vy: Math.cos(randInt(0,2*Math.PI)) * (randInt(15,20) * modifier),
+						x: randInt(0, canvas.width),
+						y: randInt(0,100)
+					}
+				));
+			}
+			levels[current_level].started = true;
+		}
+		else{
+			if(asteriods.length === 0){
+				current_level += 1;
+			}
+		}
+		if(keysDown.up){
+			ship.vx += Math.sin(ship.angle * (Math.PI/180)) * (ship.speed * modifier)/2;
+			ship.vy -= Math.cos(ship.angle * (Math.PI/180)) * (ship.speed * modifier)/2;
+		}
+		else{
+			ship.vx *= friction;
+			ship.vy *= friction;
+		}
+		if(keysDown.right){
+			ship.angle += ship.rotate_speed * modifier;
+		}
+		if(keysDown.left){
+			ship.angle -= ship.rotate_speed * modifier;
+		}
+		if(keysDown.space){
+			if(ship.canShoot){
+				bullet({
+					x: ship.x + ship.width/2, 
+					y: ship.y + ship.height/2,
+					vx: Math.sin(ship.angle * (Math.PI/180)) * (bullet.prototype.speed * 0.01),
+					vy: -(Math.cos(ship.angle * (Math.PI/180)) * (bullet.prototype.speed * 0.01))
+				});
+				ship.canShoot = false;
+				setTimeout(function(){
+					ship.canShoot = true;
+				}, 200);
+			}
+			
+			
+		}
+		bullets.forEach(function(bullet,index){
+			if(bullet.x > canvas.width || bullet.x < 0 || bullet.y > canvas.height || bullet.y < 0){
+				bullets.splice(index,1);
+			}
+			bullet.x += bullet.vx;
+			bullet.y += bullet.vy;
+		});
+		asteriods.forEach(function(bullet,index){
+			bullet.x += bullet.vx;
+			bullet.y += bullet.vy;
+			if(bullet.x  > canvas.width){
+				bullet.x = 0;
+			}
+			if(bullet.y  > canvas.height){
+				bullet.y = 0;
+			}
+			if(bullet.x + bullet.width < 0 ){
+				bullet.x = canvas.width;
+			}
+			if(bullet.y + bullet.height < 0){
+				bullet.y = canvas.height;
+			}
+		});
+		ship.x += ship.vx;
+		ship.y += ship.vy;
+		if(ship.x > canvas.width){
+			ship.x = 0;
+		}
+		if(ship.y > canvas.height){
+			ship.y = 0;
+		}
+		if(ship.x < 0 ){
+			ship.x = canvas.width;
+		}
+		if(ship.y < 0){
+			ship.y = canvas.height;
+		}
+		//Test for collisions
+		
+			
+		asteriods.forEach(function(a, ai){
+			if(intersects(ship,a)){
+					gamestate.gameOver = true;
+				}
+			bullets.forEach(function(bullet, bi){ 
+				var new_asteriods = {};
+				if(intersects(a,bullet)){
+					console.log(a.size)
+					if(a.size === "large"){
+						new_asteriods.loops = 2;
+						new_asteriods.size = "medium";
+					}
+					else if(a.size === "medium"){
+						new_asteriods.loops = 3;
+						new_asteriods.size = "small";
+					}
+					else if(a.size === "small"){
+						new_asteriods.loops = 0;
+						new_asteriods.size = "none";
+					}
+					var i;
+					for(i=0; i< new_asteriods.loops; i+=1){
+						asteriods.push(asteriod(
+						{
+							vx: Math.sin(randInt(0,2*Math.PI)) * (20 * modifier),
+							vy: Math.cos(randInt(0,2*Math.PI)) * (20 * modifier),
+							x: bullet.x + randInt(-5, 5), 
+							y: bullet.y + randInt(-5, 5),
+							width: asteriod.images[new_asteriods.size].width,
+							height: asteriod.images[new_asteriods.size].height,
+							size: new_asteriods.size
+						}
+					));
+					}
+					bullets.splice(bi,1);
+					asteriods.splice(ai,1);
+				}
+			});
+		});
+
+	}
+	var render = function(){
+		ctx.fillStyle = "rgb(0,0,0)";
+ 		ctx.fillRect(0,0,canvas.width,canvas.height);
+ 		if(!gamestate.stopped){
+ 			bullets.forEach(function(bullet){
+ 			//console.log(bullet)
+ 			ctx.fillStyle = "white";
+ 			ctx.fillRect(bullet.x,bullet.y,bullet.width,bullet.height);
+ 		});
+ 		asteriods.forEach(function(bullet){
+ 			ctx.fillStyle = "white";
+ 			ctx.drawImage(asteriod.images[bullet.size],bullet.x,bullet.y,asteriod.images[bullet.size].width,asteriod.images[bullet.size].height);
+ 		});
+   		ctx.save();
+   		ctx.translate(ship.x + (ship.width / 2), ship.y + (ship.height / 2));
+   		ctx.rotate(ship.angle * Math.PI/180);
+   		ctx.drawImage(ship.images.main, 0 - ship.width / 2, 0 - ship.height / 2);
+   		ctx.restore();
+ 		}
+ 		else{
+ 			if(!gamestate.gameOver){
+ 				ctx.fillStyle = "white";
+ 				ctx.font = "30px sans-serif";
+ 				ctx.textAlign = "center";
+ 				ctx.fillText("Asteroids", "250","200");
+ 				ctx.font = "18px sans-serif";
+ 				ctx.fillText("Click on the \"Start Game\" button to start the game (duh?)",250,250)
+ 			}
+ 			else{
+ 				ctx.fillStyle = "white";
+ 				ctx.font = "30px sans-serif";
+ 				ctx.textAlign = "center";
+ 				ctx.fillText("Game over!", "250","200");
+ 				ctx.font = "18px sans-serif";
+ 				ctx.fillText("Click on the \"Start Game\" button to restart the game (duh?)",250,250)
+ 			}
+ 		}
+ 		
+	}
+	
+	var main = function(){
+		if(images_loaded){
+			now = Date.now();
+			delta = (now - then)/1000
+			update(delta);
+			render();
+			then = now;
+		}
+	}
+	
+	then = Date.now();
+	setInterval(main,1);
+	window.start = start;
+	window.gamestate = gamestate;
+})(window);
+</script>
+</body>
+
+</html>

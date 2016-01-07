@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+.aye-captain {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 49px;
+  height: 69px;
+  background-image: url(http://i.imgur.com/zgc06Ni.png);
+  -webkit-animation: boat_move 20s ease infinite;
+     -moz-animation: boat_move 20s ease infinite;
+       -o-animation: boat_move 20s ease infinite;
+          animation: boat_move 20s ease infinite;
+}
+
+@-webkit-keyframes boat_move {
+  0% {
+    -webkit-transform: translateX(0);
+  }
+  40% {
+    -webkit-transform: translateX(-1000px);
+  }
+  51% {
+    -webkit-transform: translateX(-1000px) rotateY(180deg);
+  }
+  88% {
+    -webkit-transform: translateX(0) rotateY(180deg);
+  }
+  100% {
+    -webkit-transform: rotateY(0deg);
+  }
+}
+        </style>
+    </head>
+    <body>
+        <div class="aye-captain"></div>
+    </body>
+</html>

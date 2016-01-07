@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>Proxy</title>
+<meta charset="UTF-8" />
+<link href="psi.ico" rel="shortcut icon" type="image/x-icon" />
+<link href="reset.css" rel="stylesheet" type="text/css" id="reset" />
+<script src="jquery.js"></script>
+<script src="url.js"></script>
+<script>
+$.fn.href = function() {
+	if (arguments.length === 1) {$(this).attr("href", arguments[0]); return this;}
+	return $(this).attr("href");
+}
+$.fn.disable = function() {
+	$(this).attr("disabled", "disabled")
+}
+$.fn.enable = function() {
+	$(this).removeAttr("disabled")
+}
+function format(url) {
+	if (url.substring(0, 5) === "?url=") {
+		url = url.substring(5);
+	}
+	if (url.substring(0, 3) === "www") {
+		url = "http://"+url;
+	}
+	console.log(url);
+	return url;
+}
+function loadpage(url)
+{
+	url = format(url);
+	$.post("index.php", {mode: "proxy", url: url}, function(data)
+	{
+		var iframe = document.getElementById('iframe'),
+		    iframedoc = iframe.contentDocument || iframe.contentWindow.document;
+		iframedoc.body.innerHTML = data;
+	}, "text");
+}
+$(function()
+{
+	// var $_GET = new Url(window.location.href).queryPairs;
+
+	var a = document.createElement("a");
+	a.href = window.location.href;
+	if (a.search) {
+		loadpage(a.search);
+	}
+
+	$("input").keydown(function(e) {
+		if (e.which === 13) {
+			e.preventDefault();
+			loadpage($(this).val());
+		}
+	});
+
+	$(document).dblclick(function(e) {
+		e.preventDefault();
+		loadpage("www.cracked.com");
+	});
+})
+
+</script>
+</head>
+<body>
+<input type='text' width="100%" />
+<iframe height="100%" width="100%" id="iframe" />
+</body>
+</html>

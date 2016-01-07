@@ -1,0 +1,62 @@
++<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset=utf-8>
+<title>CivBE Tech Web</title>
+<style type="text/css"></style>
+</head>
+<body>
+<style type="text/css">
+body {
+	margin: 0;
+	padding: 0;
+	cursor: url(img/cursor.png), auto;
+}
+canvas {
+	margin: 0 auto;
+	display: block;
+}
+canvas:-webkit-full-screen {
+	width: 100% !important;
+}
+canvas:-moz-full-screen {
+	width: 100% !important;
+}
+canvas:-ms-fullscreen {
+	width: 100% !important;
+}
+canvas:fullscreen {
+	width: 100% !important;
+}
+</style>
+<div id="techWeb">
+<script src='https://code.jquery.com/jquery-2.1.4.js'></script>
+<script src="pixi.js"></script>
+<script src="mousetrap.min.js"></script>
+<script src="settings.js"></script>
+<script src="techweb.js"></script>
+<canvas id="techWebCanvas" onmouseout="mouseOutFrame();"></canvas>
+</div>
+</body>
+<script>
+var log = console.log.bind(console);
+$(function() {
+	$(window).on("mousewheel", function(e){
+		if (e.originalEvent.wheelDelta > 0) {
+			tw.zoomin()
+		}
+		if (e.originalEvent.wheelDelta < 0) {
+			tw.zoomout()
+		}
+    }).on("keypress", function(e){
+		log(e, e.originalEvent)
+		if (e.which === 45) {
+			tw.zoomout()
+		}
+		if (e.which === 61) {
+			tw.zoomin()
+		}
+    })
+})
+</script>
+</html>

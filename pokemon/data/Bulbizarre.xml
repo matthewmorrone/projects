@@ -1,0 +1,1299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF[
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+	<!ENTITY swivt 'http://semantic-mediawiki.org/swivt/1.0#'>
+	<!ENTITY wiki 'http://www.pokepedia.fr/Sp&#37;C3&#37;A9cial:URIResolver/'>
+	<!ENTITY property 'http://www.pokepedia.fr/Sp&#37;C3&#37;A9cial:URIResolver/Attribut-3A'>
+	<!ENTITY wikiurl 'http://www.pokepedia.fr/'>
+]>
+
+<rdf:RDF
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:owl ="&owl;"
+	xmlns:swivt="&swivt;"
+	xmlns:wiki="&wiki;"
+	xmlns:property="&property;">
+
+	<owl:Ontology rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:ExportRDF/Bulbizarre">
+		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-09T01:57:40+00:00</swivt:creationDate>
+		<owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
+	</owl:Ontology>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre">
+		<rdf:type rdf:resource="&wiki;Cat-C3-A9gorie-3APok-C3-A9mon_de_type_Plante"/>
+		<rdf:type rdf:resource="&wiki;Cat-C3-A9gorie-3APok-C3-A9mon_de_type_Poison"/>
+		<rdf:type rdf:resource="&wiki;Cat-C3-A9gorie-3APok-C3-A9mon_du_groupe_Monstrueux"/>
+		<rdf:type rdf:resource="&wiki;Cat-C3-A9gorie-3APok-C3-A9mon_du_groupe_V-C3-A9g-C3-A9tal"/>
+		<rdf:type rdf:resource="&wiki;Cat-C3-A9gorie-3APok-C3-A9mon_list-C3-A9_comme_Vert"/>
+		<rdf:type rdf:resource="&wiki;Cat-C3-A9gorie-3APok-C3-A9mon"/>
+		<rdf:type rdf:resource="&wiki;Cat-C3-A9gorie-3APok-C3-A9mon_de_la_g-C3-A9n-C3-A9ration_I"/>
+		<rdf:type rdf:resource="&wiki;Cat-C3-A9gorie-3APok-C3-A9mon_de_base"/>
+		<rdf:type rdf:resource="&wiki;Cat-C3-A9gorie-3APok-C3-A9mon_de_d-C3-A9part"/>
+		<rdf:type rdf:resource="&wiki;Cat-C3-A9gorie-3APages_avec_des_liens_de_fichiers_bris-C3-A9s"/>
+		<rdfs:label>Bulbizarre</rdfs:label>
+		<swivt:page rdf:resource="http://www.pokepedia.fr/Bulbizarre"/>
+		<rdfs:isDefinedBy rdf:resource="http://www.pokepedia.fr/Sp%C3%A9cial:ExportRDF/Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Couleur rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vert</property:Couleur>
+		<property:Exp._au_niveau_100 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1059860</property:Exp._au_niveau_100>
+		<property:Famille rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graine</property:Famille>
+		<property:G-C3-A9n-C3-A9ration_du_Pok-C3-A9mon rdf:resource="&wiki;Premi-C3-A8re_g-C3-A9n-C3-A9ration"/>
+		<property:Num-C3-A9ro_National rdf:datatype="http://www.w3.org/2001/XMLSchema#string">001</property:Num-C3-A9ro_National>
+		<property:Poids rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.9</property:Poids>
+		<property:Points_effort rdf:datatype="http://www.w3.org/2001/XMLSchema#string">+1 Att. Spé</property:Points_effort>
+		<property:Points_exp. rdf:datatype="http://www.w3.org/2001/XMLSchema#double">64</property:Points_exp.>
+		<property:Premier_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plante</property:Premier_type>
+		<property:Second_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poison</property:Second_type>
+		<property:Taille rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7</property:Taille>
+		<property:Taux_de_capture rdf:datatype="http://www.w3.org/2001/XMLSchema#double">45</property:Taux_de_capture>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY4797073e196579f11f404ad4ebd22a62"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYd1ca405d6fc10544e4cc2cc977c33c09"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY94a16b954266fb54b5f659bf7f0e5b2b"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY2aacb18aedd169344f3b422912fbacf5"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY1a81a79454cfa1dd27cf10f618721bbf"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY5e6a88af34bc484e869ec8e75474bc36"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYe0ae586a2ab324ec8fb46cfda393ae85"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY46417ab675173db3a548b39a5bd3e6b3"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYf366a6ea64e2eab88c18940d5fa5b227"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYef4fe321babba57d33d6d56ebfc85de3"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYce8438fdedc732ef1ca5ed2aa09b9dfd"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYd837f84fe7227392adb3c1ecd6b4dc0d"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY63feba01a5854decccf1eb95bbe5581e"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY2960696ebb7ab2bfc306b704a6e2c4a1"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYc3976b270203b035feb29425e9a63cae"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY62a190e944c3ff5fa641b14d349a3c0f"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY0c82d580272dfc473823c28f1a904e82"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY8f94c5ac41344ab28271935ce631c7b0"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY86ea94e4a1f360e636e9a98a140d6bed"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY5a27f7d3e462f92d179f987b88492b45"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY082217567b2cbf3bd5288922f7dcd3ac"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYb8c475dc966ef43dbd050dec668190ed"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYe5df86434322eaa36a8f178c5e47921b"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYf1dae17544d023a2865fe99df57db507"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYa71f1acac7e2c4791fe50c626b8bc95f"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYd0cd1b6c764c2b43f7134ab213be92f5"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY05fba34b9120f59ce5fa9e609beda19d"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYcf542b02bdd0a6b4ed144b5f46842042"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY6f57e4b7f6265bbbd993cee5b62ec4e9"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY008b38e97c74a240e49d39f30f5f4152"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYc7b782a423e77eb68fe41000c71fe268"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY95e043e2fb21c5a84d6369bcb495f7fc"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYbc9c7b8fe9eebe7fd274249b3a31c49d"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY46a722c7b1ddd042bbaab697ddbcc011"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY0e37ee860201cd3b58a4e6c470510d08"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY094741e1bba697cad57fac695b89ce87"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYb8805ef6d7b07c7c3e77ce883411a715"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYb3ebe76c95fa6ecf9427e11aa3bd8d22"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYd87758084714ebf4a66469cb27f955a7"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY9b52318662c0595654da83d622898829"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY37c06f42fdf8191f61c5946541016d56"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYc4448a124c3539596c41c1a3ac3cb91c"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY8000e7e6e7153a1ca190b675f8bcf4e8"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY34dceff9ece7237987ff2f034c26c883"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY2b0b17b38b03b1793e58995e1e334fd5"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY76cd01a1641821638ca16c29859fcf69"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY162fa81fc4e002e6c79a3a1c84e7aabb"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYa6f4a95f3df17fc0abc27ea741033a88"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY5c4f1a666f050a81af51dbc2db420fea"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY6b55d46842c3eed4e1f8456206320f9c"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY3b1ddfdf873734ba4c747366957656ea"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYa8ebe8733437632b2d7571bb2ced7e1d"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY8417417dcdb9678e517f1445b8ba0162"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY449f371c61712e71827dad667ab0566a"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYe70f15abd4b3366e634568ebb6b525a3"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY9a25592c67e085d75d439ebcf295c4d3"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY1163d4776c75376ef82b242301e42dca"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY3cab61735bab501797507dc3215c89fa"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYaf28602497cd6bbdfa09231bd14752d1"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY45364ab342bd1e1cc25a9eebb5c14da9"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY4241c7e85405e97d1270023ff8f00920"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY43d18ee338675dd42b0f994d823c8eb6"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYd881b2c65df936bdd37a482c89f93166"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY4938cbed3752880c63b5c515c783eba6"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYa23094de7dc7789e0b6ffe749a7e1004"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYf9dea3f2e61051d4258430c8dd996d0c"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYaf485a02697faf07670756bdfbb45e80"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY2f554439d5cd09e220502f1683a63183"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY36c52aebe4083fb2480f03529370bd80"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY3c0c8fbd48176b5f6af0bbe937114446"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY142a2b03089160a2d36194f70612c575"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY84319e28e7b0f68e529b3ddb68133008"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY5b38ccf2df327ca3bd02b7254925d0d8"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY23240e688b76ab8572b55f17e3efa25a"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYba63d7779ac030c7d10e044ca47c425e"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYe96164d08e3dd97a6df70dfbcd5d84c8"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYfa67c66f9ec582de8e8a768879b6c416"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYa82143c4ebc7aa6472e329b46f276db5"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYc319769fb171fada69899f7ac8edbba5"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYb47a60f41bc33a250f84c829acaae66f"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY807cd93e1e56887beab42477e1898409"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY4646c5ca79d8c43fdf191c06d815d1e7"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY5015989d9fac676b0b7cfac3bf5a1ae8"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY6dfbac1d2761afb487f3f664921e2a5d"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY4ee35f0a45c4cbdbd74d15382efb65bb"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY21537af56877dd2ecebb31ad4a45fffd"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYc8d493584c5e03b86aa66610eea8b543"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYde63348ffdf090221670ed255b145215"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY8c76acfb515d70ef4f62f8513d8f76b4"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY81456d0d7398377d5eb77ab52a76702c"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY7c5a7a0c9fda555b5eaad61d18b39ca6"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYa5ba3eb6997d9b057438c30e1ed5abbb"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY38bb737dc96584a52ea6e2aadd958b49"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY51f7d7496415fc157665952e0a5da67c"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY067d351da2101cc109a2d56ac6d544fd"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY9d7d9f5f62a3c6951b9fa91ad0532f24"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY4b7fdec75f2d821dc6ba15859c498e31"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY4ca58cd4b1cbba8e02269f604df5f52d"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYc691512ce9c5820eb4e855caaf8dff3d"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYc6ca019df541a91c3310b8fd0df30a74"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY66bc8c0f4efcadfce9e772eed3d71254"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY156aa89f1fe68a6dbb4e8cc3d45c09a5"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYa603bc3c10e671d587822c4e6162f49c"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY4292ed7ce6fee3bc7df9a5f6cfd251a2"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYf124334ee66f3428585b2142db6d5f8e"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY35aa2fd0d26929c6d4a6446181b75290"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYd9ac8316509fe6b80eb3967680ed54b7"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERYa18494ce57b60aee1ecd29e50de3af2f"/>
+		<property:Poss-C3-A8de_une_requ-C3-AAte-23aux rdf:resource="&wiki;Bulbizarre-23_QUERY3154c56c18848555d32cdbc42bf15bbb"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-03T12:06:41Z</swivt:wikiPageModificationDate>
+		<property:Date_de_modification-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457238.0046412</property:Date_de_modification-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+		<owl:sameAs rdf:resource="http://pokedex.dataincubator.org/pokemon/1"/>
+		<owl:sameAs rdf:resource="http://dbpedia.org/resource/Bulbasaur"/>
+		<wiki:Attribut-3A-C3-89closion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5120</wiki:Attribut-3A-C3-89closion>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY4797073e196579f11f404ad4ebd22a62">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Bulbizarre]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYd1ca405d6fc10544e4cc2cc977c33c09">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Bulbizarre]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY94a16b954266fb54b5f659bf7f0e5b2b">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Bulbizarre]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY2aacb18aedd169344f3b422912fbacf5">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Charge]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY1a81a79454cfa1dd27cf10f618721bbf">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Charge/Génération 5]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY5e6a88af34bc484e869ec8e75474bc36">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Rugissement]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYe0ae586a2ab324ec8fb46cfda393ae85">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Rugissement/Génération 5]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY46417ab675173db3a548b39a5bd3e6b3">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Vampigraine]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYf366a6ea64e2eab88c18940d5fa5b227">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Vampigraine/Génération 5]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYef4fe321babba57d33d6d56ebfc85de3">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Fouet Lianes]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYce8438fdedc732ef1ca5ed2aa09b9dfd">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Fouet Lianes/Génération 5]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYd837f84fe7227392adb3c1ecd6b4dc0d">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Poudre Toxik]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY63feba01a5854decccf1eb95bbe5581e">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Poudre Toxik/Génération 5]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY2960696ebb7ab2bfc306b704a6e2c4a1">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Poudre Dodo]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYc3976b270203b035feb29425e9a63cae">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Poudre Dodo/Génération 5]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY62a190e944c3ff5fa641b14d349a3c0f">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Bélier]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY0c82d580272dfc473823c28f1a904e82">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Bélier/Génération 5]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY8f94c5ac41344ab28271935ce631c7b0">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Tranch'Herbe]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY86ea94e4a1f360e636e9a98a140d6bed">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Tranch'Herbe/Génération 5]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY5a27f7d3e462f92d179f987b88492b45">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Doux Parfum]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY082217567b2cbf3bd5288922f7dcd3ac">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Doux Parfum/Génération 5]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYb8c475dc966ef43dbd050dec668190ed">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Croissance]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYe5df86434322eaa36a8f178c5e47921b">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Croissance/Génération 5]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYf1dae17544d023a2865fe99df57db507">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Damoclès]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYa71f1acac7e2c4791fe50c626b8bc95f">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Damoclès/Génération 5]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYd0cd1b6c764c2b43f7134ab213be92f5">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Soucigraine]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY05fba34b9120f59ce5fa9e609beda19d">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Soucigraine/Génération 5]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYcf542b02bdd0a6b4ed144b5f46842042">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Synthèse]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY6f57e4b7f6265bbbd993cee5b62ec4e9">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Synthèse/Génération 5]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY008b38e97c74a240e49d39f30f5f4152">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Canon Graine]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYc7b782a423e77eb68fe41000c71fe268">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Canon Graine/Génération 5]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY95e043e2fb21c5a84d6369bcb495f7fc">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Charge]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYbc9c7b8fe9eebe7fd274249b3a31c49d">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Rugissement]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY46a722c7b1ddd042bbaab697ddbcc011">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Vampigraine]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY0e37ee860201cd3b58a4e6c470510d08">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Fouet Lianes]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY094741e1bba697cad57fac695b89ce87">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Poudre Toxik]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYb8805ef6d7b07c7c3e77ce883411a715">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Poudre Dodo]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYb3ebe76c95fa6ecf9427e11aa3bd8d22">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Bélier]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYd87758084714ebf4a66469cb27f955a7">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Tranch'Herbe]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY9b52318662c0595654da83d622898829">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Doux Parfum]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY37c06f42fdf8191f61c5946541016d56">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Croissance]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYc4448a124c3539596c41c1a3ac3cb91c">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Damoclès]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY8000e7e6e7153a1ca190b675f8bcf4e8">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Soucigraine]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY34dceff9ece7237987ff2f034c26c883">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Synthèse]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY2b0b17b38b03b1793e58995e1e334fd5">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Canon Graine]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY76cd01a1641821638ca16c29859fcf69">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Toxik]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY162fa81fc4e002e6c79a3a1c84e7aabb">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Toxik]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYa6f4a95f3df17fc0abc27ea741033a88">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Choc Venin]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY5c4f1a666f050a81af51dbc2db420fea">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Choc Venin]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY6b55d46842c3eed4e1f8456206320f9c">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Puis. Cachée]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY3b1ddfdf873734ba4c747366957656ea">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Puis. Cachée]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYa8ebe8733437632b2d7571bb2ced7e1d">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Zénith]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY8417417dcdb9678e517f1445b8ba0162">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Zénith]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY449f371c61712e71827dad667ab0566a">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Mur Lumière]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYe70f15abd4b3366e634568ebb6b525a3">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Mur Lumière]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY9a25592c67e085d75d439ebcf295c4d3">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Abri]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY1163d4776c75376ef82b242301e42dca">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Abri]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY3cab61735bab501797507dc3215c89fa">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Rune Protect]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYaf28602497cd6bbdfa09231bd14752d1">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Rune Protect]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY45364ab342bd1e1cc25a9eebb5c14da9">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Frustration]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY4241c7e85405e97d1270023ff8f00920">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Frustration]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY43d18ee338675dd42b0f994d823c8eb6">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Lance-Soleil]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYd881b2c65df936bdd37a482c89f93166">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Lance-Soleil]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY4938cbed3752880c63b5c515c783eba6">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Retour]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYa23094de7dc7789e0b6ffe749a7e1004">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Retour]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYf9dea3f2e61051d4258430c8dd996d0c">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Reflet]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYaf485a02697faf07670756bdfbb45e80">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Reflet]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY2f554439d5cd09e220502f1683a63183">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Bomb-Beurk]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY36c52aebe4083fb2480f03529370bd80">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Bomb-Beurk]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY3c0c8fbd48176b5f6af0bbe937114446">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Façade]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY142a2b03089160a2d36194f70612c575">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Façade]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY84319e28e7b0f68e529b3ddb68133008">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Repos]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY5b38ccf2df327ca3bd02b7254925d0d8">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Repos]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY23240e688b76ab8572b55f17e3efa25a">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Attraction]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYba63d7779ac030c7d10e044ca47c425e">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Chant Canon]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYe96164d08e3dd97a6df70dfbcd5d84c8">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Chant Canon]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYfa67c66f9ec582de8e8a768879b6c416">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Écho]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYa82143c4ebc7aa6472e329b46f276db5">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Éco-Sphère]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYc319769fb171fada69899f7ac8edbba5">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Éco-Sphère]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYb47a60f41bc33a250f84c829acaae66f">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Flash]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY807cd93e1e56887beab42477e1898409">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Flash]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY4646c5ca79d8c43fdf191c06d815d1e7">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Danse-Lames]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY5015989d9fac676b0b7cfac3bf5a1ae8">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Danse-Lames]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY6dfbac1d2761afb487f3f664921e2a5d">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Nœud Herbe]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY4ee35f0a45c4cbdbd74d15382efb65bb">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Nœud Herbe]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY21537af56877dd2ecebb31ad4a45fffd">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Vantardise]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYc8d493584c5e03b86aa66610eea8b543">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Vantardise]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYde63348ffdf090221670ed255b145215">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Clonage]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY8c76acfb515d70ef4f62f8513d8f76b4">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Éclate-Roc]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY81456d0d7398377d5eb77ab52a76702c">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Éclate-Roc]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY7c5a7a0c9fda555b5eaad61d18b39ca6">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Coupe]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYa5ba3eb6997d9b057438c30e1ed5abbb">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Coupe]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY38bb737dc96584a52ea6e2aadd958b49">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Force]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY51f7d7496415fc157665952e0a5da67c">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Force]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY067d351da2101cc109a2d56ac6d544fd">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Force-Nature]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY9d7d9f5f62a3c6951b9fa91ad0532f24">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Force-Nature]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY4b7fdec75f2d821dc6ba15859c498e31">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Confidence]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY4ca58cd4b1cbba8e02269f604df5f52d">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Confidence]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYc691512ce9c5820eb4e855caaf8dff3d">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Pokémon représenté::Bulbizarre]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYc6ca019df541a91c3310b8fd0df30a74">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Attraction (attaque)]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY66bc8c0f4efcadfce9e772eed3d71254">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Écho (attaque)]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY156aa89f1fe68a6dbb4e8cc3d45c09a5">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Clonage (attaque)]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYa603bc3c10e671d587822c4e6162f49c">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">count</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Diamant &amp; Perle Merveilles Secrètes]] [[Catégorie:Homonymie]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY4292ed7ce6fee3bc7df9a5f6cfd251a2">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">count</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:EX Gardiens de Cristal]] [[Catégorie:Homonymie]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYf124334ee66f3428585b2142db6d5f8e">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">count</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:EX Rouge Feu &amp; Vert Feuille]] [[Catégorie:Homonymie]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY35aa2fd0d26929c6d4a6446181b75290">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">count</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Expedition]] [[Catégorie:Homonymie]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYd9ac8316509fe6b80eb3967680ed54b7">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">count</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Noir &amp; Blanc Explorateurs Obscurs]] [[Catégorie:Homonymie]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERYa18494ce57b60aee1ecd29e50de3af2f">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">count</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Platine Vainqueurs Suprêmes]] [[Catégorie:Homonymie]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre-23_QUERY3154c56c18848555d32cdbc42bf15bbb">
+		<swivt:masterPage rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Profondeur_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Profondeur_de_la_requ-C3-AAte-23aux>
+		<property:Format_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">count</property:Format_de_requ-C3-AAte-23aux>
+		<property:Taille_de_la_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Taille_de_la_requ-C3-AAte-23aux>
+		<property:Champ_de_requ-C3-AAte-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Set de Base]] [[Catégorie:Homonymie]]</property:Champ_de_requ-C3-AAte-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre_(Set_de_Base_44)">
+		<rdfs:label>Bulbizarre (Set de Base 44)</rdfs:label>
+		<swivt:page rdf:resource="http://www.pokepedia.fr/Bulbizarre_(Set_de_Base_44)"/>
+		<rdfs:isDefinedBy rdf:resource="http://www.pokepedia.fr/Sp%C3%A9cial:ExportRDF/Bulbizarre_(Set_de_Base_44)"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Pok-C3-A9mon_repr-C3-A9sent-C3-A9 rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre (Set de Base 44)</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre_(EX_Gardiens_de_Cristal_46)">
+		<rdfs:label>Bulbizarre (EX Gardiens de Cristal 46)</rdfs:label>
+		<swivt:page rdf:resource="http://www.pokepedia.fr/Bulbizarre_(EX_Gardiens_de_Cristal_46)"/>
+		<rdfs:isDefinedBy rdf:resource="http://www.pokepedia.fr/Sp%C3%A9cial:ExportRDF/Bulbizarre_(EX_Gardiens_de_Cristal_46)"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Pok-C3-A9mon_repr-C3-A9sent-C3-A9 rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre (EX Gardiens de Cristal 46)</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre_(Expedition_95)">
+		<rdfs:label>Bulbizarre (Expedition 95)</rdfs:label>
+		<swivt:page rdf:resource="http://www.pokepedia.fr/Bulbizarre_(Expedition_95)"/>
+		<rdfs:isDefinedBy rdf:resource="http://www.pokepedia.fr/Sp%C3%A9cial:ExportRDF/Bulbizarre_(Expedition_95)"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Pok-C3-A9mon_repr-C3-A9sent-C3-A9 rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre (Expedition 95)</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre_(Diamant_-26_Perle_Merveilles_Secr-C3-A8tes_77)">
+		<rdfs:label>Bulbizarre (Diamant &amp; Perle Merveilles Secrètes 77)</rdfs:label>
+		<swivt:page rdf:resource="http://www.pokepedia.fr/Bulbizarre_(Diamant_%26_Perle_Merveilles_Secr%C3%A8tes_77)"/>
+		<rdfs:isDefinedBy rdf:resource="http://www.pokepedia.fr/Sp%C3%A9cial:ExportRDF/Bulbizarre_(Diamant_%26_Perle_Merveilles_Secr%C3%A8tes_77)"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Pok-C3-A9mon_repr-C3-A9sent-C3-A9 rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre (Diamant &amp; Perle Merveilles Secrètes 77)</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre_(Noir_-26_Blanc_Explorateurs_Obscurs_1)">
+		<rdfs:label>Bulbizarre (Noir &amp; Blanc Explorateurs Obscurs 1)</rdfs:label>
+		<swivt:page rdf:resource="http://www.pokepedia.fr/Bulbizarre_(Noir_%26_Blanc_Explorateurs_Obscurs_1)"/>
+		<rdfs:isDefinedBy rdf:resource="http://www.pokepedia.fr/Sp%C3%A9cial:ExportRDF/Bulbizarre_(Noir_%26_Blanc_Explorateurs_Obscurs_1)"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Pok-C3-A9mon_repr-C3-A9sent-C3-A9 rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre (Noir &amp; Blanc Explorateurs Obscurs 1)</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre_(Platine_Vainqueurs_Supr-C3-AAmes_93)">
+		<rdfs:label>Bulbizarre (Platine Vainqueurs Suprêmes 93)</rdfs:label>
+		<swivt:page rdf:resource="http://www.pokepedia.fr/Bulbizarre_(Platine_Vainqueurs_Supr%C3%AAmes_93)"/>
+		<rdfs:isDefinedBy rdf:resource="http://www.pokepedia.fr/Sp%C3%A9cial:ExportRDF/Bulbizarre_(Platine_Vainqueurs_Supr%C3%AAmes_93)"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Pok-C3-A9mon_repr-C3-A9sent-C3-A9 rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre (Platine Vainqueurs Suprêmes 93)</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre_(EX_Rouge_Feu_-26_Vert_Feuille_55)">
+		<rdfs:label>Bulbizarre (EX Rouge Feu &amp; Vert Feuille 55)</rdfs:label>
+		<swivt:page rdf:resource="http://www.pokepedia.fr/Bulbizarre_(EX_Rouge_Feu_%26_Vert_Feuille_55)"/>
+		<rdfs:isDefinedBy rdf:resource="http://www.pokepedia.fr/Sp%C3%A9cial:ExportRDF/Bulbizarre_(EX_Rouge_Feu_%26_Vert_Feuille_55)"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Pok-C3-A9mon_repr-C3-A9sent-C3-A9 rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre (EX Rouge Feu &amp; Vert Feuille 55)</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre_(EX_Gardiens_de_Cristal_45)">
+		<rdfs:label>Bulbizarre (EX Gardiens de Cristal 45)</rdfs:label>
+		<swivt:page rdf:resource="http://www.pokepedia.fr/Bulbizarre_(EX_Gardiens_de_Cristal_45)"/>
+		<rdfs:isDefinedBy rdf:resource="http://www.pokepedia.fr/Sp%C3%A9cial:ExportRDF/Bulbizarre_(EX_Gardiens_de_Cristal_45)"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Pok-C3-A9mon_repr-C3-A9sent-C3-A9 rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre (EX Gardiens de Cristal 45)</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre_(Jeton_Battrio_01-2D030)">
+		<rdfs:label>Bulbizarre (Jeton Battrio 01-030)</rdfs:label>
+		<swivt:page rdf:resource="http://www.pokepedia.fr/Bulbizarre_(Jeton_Battrio_01-030)"/>
+		<rdfs:isDefinedBy rdf:resource="http://www.pokepedia.fr/Sp%C3%A9cial:ExportRDF/Bulbizarre_(Jeton_Battrio_01-030)"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Pok-C3-A9mon_du_jeton rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre (Jeton Battrio 01-030)</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre_(Jeton_Battrio_03-2D030)">
+		<rdfs:label>Bulbizarre (Jeton Battrio 03-030)</rdfs:label>
+		<swivt:page rdf:resource="http://www.pokepedia.fr/Bulbizarre_(Jeton_Battrio_03-030)"/>
+		<rdfs:isDefinedBy rdf:resource="http://www.pokepedia.fr/Sp%C3%A9cial:ExportRDF/Bulbizarre_(Jeton_Battrio_03-030)"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Pok-C3-A9mon_du_jeton rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre (Jeton Battrio 03-030)</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Bulbizarre_(Jeton_Battrio_04-2D034)">
+		<rdfs:label>Bulbizarre (Jeton Battrio 04-034)</rdfs:label>
+		<swivt:page rdf:resource="http://www.pokepedia.fr/Bulbizarre_(Jeton_Battrio_04-034)"/>
+		<rdfs:isDefinedBy rdf:resource="http://www.pokepedia.fr/Sp%C3%A9cial:ExportRDF/Bulbizarre_(Jeton_Battrio_04-034)"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Pok-C3-A9mon_du_jeton rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulbizarre (Jeton Battrio 04-034)</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Pok-C3-A9mon_n-C2-B01">
+		<rdfs:label>Pokémon n°1</rdfs:label>
+		<swivt:page rdf:resource="http://www.pokepedia.fr/Pok%C3%A9mon_n%C2%B01"/>
+		<rdfs:isDefinedBy rdf:resource="http://www.pokepedia.fr/Sp%C3%A9cial:ExportRDF/Pok%C3%A9mon_n%C2%B01"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:redirectsTo rdf:resource="&wiki;Bulbizarre"/>
+		<owl:sameAs rdf:resource="&wiki;Bulbizarre"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pokémon n°1</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<owl:ObjectProperty rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Attribut-3APok-C3-A9mon_repr-C3-A9sent-C3-A9">
+		<rdfs:label>Pokémon représenté</rdfs:label>
+		<swivt:page rdf:resource="http://www.pokepedia.fr/Attribut:Pok%C3%A9mon_repr%C3%A9sent%C3%A9"/>
+		<rdfs:isDefinedBy rdf:resource="http://www.pokepedia.fr/Sp%C3%A9cial:ExportRDF/Attribut:Pok%C3%A9mon_repr%C3%A9sent%C3%A9"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">106</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pokémon représenté</swivt:wikiPageSortKey>
+		<swivt:type rdf:resource="http://semantic-mediawiki.org/swivt/1.0#_wpg"/>
+	</owl:ObjectProperty>
+	<owl:ObjectProperty rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Attribut-3APok-C3-A9mon_du_jeton">
+		<rdfs:label>Pokémon du jeton</rdfs:label>
+		<swivt:page rdf:resource="http://www.pokepedia.fr/Attribut:Pok%C3%A9mon_du_jeton"/>
+		<rdfs:isDefinedBy rdf:resource="http://www.pokepedia.fr/Sp%C3%A9cial:ExportRDF/Attribut:Pok%C3%A9mon_du_jeton"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">106</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pokémon du jeton</swivt:wikiPageSortKey>
+		<swivt:type rdf:resource="http://semantic-mediawiki.org/swivt/1.0#_wpg"/>
+	</owl:ObjectProperty>
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#creationDate" />
+	<owl:Class rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Cat-C3-A9gorie-3APok-C3-A9mon_de_type_Plante" />
+	<owl:Class rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Cat-C3-A9gorie-3APok-C3-A9mon_de_type_Poison" />
+	<owl:Class rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Cat-C3-A9gorie-3APok-C3-A9mon_du_groupe_Monstrueux" />
+	<owl:Class rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Cat-C3-A9gorie-3APok-C3-A9mon_du_groupe_V-C3-A9g-C3-A9tal" />
+	<owl:Class rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Cat-C3-A9gorie-3APok-C3-A9mon_list-C3-A9_comme_Vert" />
+	<owl:Class rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Cat-C3-A9gorie-3APok-C3-A9mon" />
+	<owl:Class rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Cat-C3-A9gorie-3APok-C3-A9mon_de_la_g-C3-A9n-C3-A9ration_I" />
+	<owl:Class rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Cat-C3-A9gorie-3APok-C3-A9mon_de_base" />
+	<owl:Class rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Cat-C3-A9gorie-3APok-C3-A9mon_de_d-C3-A9part" />
+	<owl:Class rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Cat-C3-A9gorie-3APages_avec_des_liens_de_fichiers_bris-C3-A9s" />
+	<owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#page" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiNamespace" />
+	<owl:DatatypeProperty rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Attribut-3ACouleur" />
+	<owl:DatatypeProperty rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Attribut-3AExp._au_niveau_100" />
+	<owl:DatatypeProperty rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Attribut-3AFamille" />
+	<owl:ObjectProperty rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Attribut-3AG-C3-A9n-C3-A9ration_du_Pok-C3-A9mon" />
+	<owl:DatatypeProperty rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Attribut-3ANum-C3-A9ro_National" />
+	<owl:DatatypeProperty rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Attribut-3APoids" />
+	<owl:DatatypeProperty rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Attribut-3APoints_effort" />
+	<owl:DatatypeProperty rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Attribut-3APoints_exp." />
+	<owl:DatatypeProperty rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Attribut-3APremier_type" />
+	<owl:DatatypeProperty rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Attribut-3ASecond_type" />
+	<owl:DatatypeProperty rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Attribut-3ATaille" />
+	<owl:DatatypeProperty rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Attribut-3ATaux_de_capture" />
+	<owl:ObjectProperty rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Attribut-3APoss-C3-A8de_une_requ-C3-AAte-23aux" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageModificationDate" />
+	<owl:DatatypeProperty rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Attribut-3ADate_de_modification-23aux" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageSortKey" />
+	<owl:DatatypeProperty rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Attribut-3A-C3-89closion" />
+	<owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#masterPage" />
+	<owl:DatatypeProperty rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Attribut-3AProfondeur_de_la_requ-C3-AAte-23aux" />
+	<owl:DatatypeProperty rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Attribut-3AFormat_de_requ-C3-AAte-23aux" />
+	<owl:DatatypeProperty rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Attribut-3ATaille_de_la_requ-C3-AAte-23aux" />
+	<owl:DatatypeProperty rdf:about="http://www.pokepedia.fr/Sp%C3%A9cial:URIResolver/Attribut-3AChamp_de_requ-C3-AAte-23aux" />
+	<owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#redirectsTo" />
+	<owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#type" />
+	<!-- Created by Semantic MediaWiki, http://semantic-mediawiki.org/ -->
+</rdf:RDF>

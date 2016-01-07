@@ -1,0 +1,73 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Pickup Sticks &amp; Pi</title>
+	<style>
+	body {
+		background-color: rgba(245, 243, 242, 1);
+		font-family: "Helvetica", sans-serif;
+		font-size: 14px;
+		margin: 8px;
+	}
+	
+	aside {
+		align: right;
+	}
+	
+	canvas {
+		float: left;
+		margin-right: 16px;
+	}
+	
+	h3 {
+		color: rgba(189, 54, 19, 1);
+	}
+	</style>
+</head>
+<body>
+	<h1>Pickup Sticks &amp; Pi</h1>
+	<canvas id="pickup-canvas" width="361" height="361"></canvas>
+	<p>Number of sticks dropped: <span id="stick-count"></span>
+		<br> Number that crossed a line: <span id="cross-count"></span></p>
+	<h3>Your estimate of π: <span id="estimate"></span></h3>
+	<p>Error: <span id="error-percent"></span>%</p>
+	<p> </p>
+	<form class="side" id="sticks-form">
+		<label>Number of sticks to drop:</label>
+		<select id="num-sticks-select" size="1">
+			<option value="10" selected="selected">10</option>
+			<option value="100">100</option>
+			<option value="1000">1,000</option>
+			<option value="10000">10,000</option>
+			<option value="1000000">1,000,000</option>
+			<!-- <option value="10000000">10,000,000</option> -->
+			<!-- <option value="10000000000">10,000,000,000</option> -->
+			<!-- <option value="10000000000000">10,000,000,000,000</option> -->
+		</select>
+	</form>
+	<p></p>
+	<p><strong>Click on the board!</strong> Each time you click, <span id="num-sticks"></span> sticks will be dropped and the number that cross a line will be counted. I dropped 1,000 to start you off.
+		<br>
+		<br> Does the estimate get better as you drop more sticks (i.e. does the error get smaller)? How close to 3.1415927… can you get after 100,000 sticks, or 1,000,000? </p>
+	<script src="pickup.js"></script>
+	<script>
+	initGame(document.getElementById('pickup-canvas'), document.getElementById('stick-count'), document.getElementById('cross-count'), document.getElementById('estimate'), document.getElementById('error-percent'), document.getElementById('num-sticks-select'), document.getElementById('num-sticks'));
+/*	document.addEventListener("click", function e() {
+		var i = setInterval(function() {
+			var elem = document.getElementById('pickup-canvas');
+			var event = new Event('click', {
+				bubbles: false,
+				cancelable: false
+			});
+			elem.dispatchEvent(event);
+		}, 100)
+		document.removeEventListener('click', e, false)
+		document.addEventListener("click", function() {
+			clearInterval(i)
+		}, false)
+	}, false);*/
+	</script>
+</body>
+
+</html>

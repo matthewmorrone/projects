@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>SVG to PNG conversion tool</title>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.2.0/dropzone.js"></script>
+<style>
+body {
+	margin: 0;
+	font-family: Helvetica, sans-serif;
+	line-height: 1.4em;
+}
+main {
+	padding-top: 3em;
+	max-width: 600px;
+	margin: 0 auto;
+}
+h1 {
+	text-align: center;
+}
+#hotzone {
+	margin-top: 1em;
+	color: #333;
+	font-size: 1.2em;
+	padding: 2em;
+	background-color: rgb(241, 241, 241);
+	text-align: center;
+}
+#form {
+	font-size: 1.2em;
+}
+#form input[type="text"] {
+	background-color: rgb(241, 241, 241);
+	border: none;
+	font-size: 1em;
+	margin-left: 0.2em;
+	margin-right: 0.5em;
+	padding: 0.2em;
+	width: 100px;
+}
+#form #inputHeight {
+	color: #9E9E9E;
+}
+</style>
+</head>
+<body>
+<main>
+<h1>SVG to PNG converter</h1>
+<div id="hotzone">Drop SVG file here</div>
+<script type="text/javascript">
+var log = console.log.bind(console);
+function error(msg) {
+	alert(msg)
+}
+var dropzone = new Dropzone("#hotzone", {
+	url: "nothing",
+	clickable: true,
+	autoProcessQueue: true,
+	createImageThumbnails: false,
+	uploadMultiple: true
+})
+
+dropzone.on("addedfile", function(file) {
+	if(!file.name.match(/\.svg/)) {
+		return error("This converter only works on SVG files")
+	}
+	var r = new FileReader()
+	r.onload = function(e) {
+		fileUploaded(e.target.result, file.name)
+	}
+	r.readAsText(file)
+})
+
+
+
+function fileUploaded(contents, filename) {
+	// read size of SVG
+	var div = $('<div>' + contents + '</div>')
+	var svg = div.find('svg')
+
+	if(svg.length == 0) {return error("Uploaded file doesn't have an SVG tag")}
+
+	var width = parseInt(svg.attr('width'))
+	var height = parseInt(svg.attr('height'))
+	var ratio = height / width
+
+	var convertWidth = width
+	var convertHeight = height
+
+	if(!width || !height) {return error("SVG must have width and height attribute")}
+
+	// Create form
+	var tmpl = '<form>' + 
+	'<label>Width</label> <input id="inputWidth" name="width" value="' + width + '" type="text">' + 
+	'<label>Height</label> <input id="inputHeight" name="height" value="' + height + '" type="text" disabled>' + 
+	'<input type="submit" value="Convert">' + 
+	'</form>'
+	var form = $('<div id="form">' + tmpl + '</form>')
+	$("#hotzone").replaceWith(form)
+
+	$("#inputWidth").on('input', function() {
+		convertWidth = parseInt($(this).val())
+		convertHeight = Math.round(convertWidth * ratio)
+		$("#inputHeight").val(convertHeight)
+	})
+
+	$("#form").on('submit', function(e) {
+		e.preventDefault()
+		var newFilename = filename.replace('.svg', '.png')
+		createPNG(convertWidth, convertHeight, contents, newFilename)
+	})
+}
+function createPNG(width, height, contents, filename) {
+	log(filename, contents.slice(0, 50))
+	var src = 'data:image/svg+xml;utf8,' + contents
+
+	// from here:
+	// https://gist.github.com/mbostock/6466603
+	$("#form").after('<canvas width="' + width + '" height="' + height + '"></canvas>')
+
+	var canvas = document.querySelector("canvas")
+	var context = canvas.getContext("2d")
+
+	var image = new Image
+	image.src = src
+	image.onload = function() {
+		context.drawImage(image, 0, 0, width, height)
+		var a = document.createElement("a")
+		a.download = filename
+		a.href = canvas.toDataURL("image/png")
+		a.click()
+	}
+}
+</script>
+
+</main>
+
+</body>
+</html>
