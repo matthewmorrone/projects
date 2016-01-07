@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)http://html5-demos.appspot.com/static/css/filters/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<title>CSS Filters</title>
+<link href="fonts.css" rel="stylesheet" type="text/css">
+<link href="common.css" rel="stylesheet" type="text/css">
+<style>
+article {
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-direction: column;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+article > section {
+  margin: 1em 0;
+}
+.cols {
+  -webkit-columns: 3;
+  columns: 3;
+  width: 80%;
+}
+.cols > span {
+  display: inline-block;
+  width: 100%;
+}
+.cols > span > span {
+  width: 35%;
+  display: inline-block;
+  white-space: nowrap;
+}
+.cols > span > span:after {
+  content: '():';
+}
+hgroup {
+  text-align: center;
+  margin-bottom: 1em;
+}
+output {
+  display: block;
+  font-size: 14pt;
+  font-weight: 600;
+}
+@-webkit-keyframes sepia-anim {
+  from { -webkit-filter: sepia(0); }
+  to   { -webkit-filter: sepia(1); }
+}
+@-webkit-keyframes grayscale-anim {
+  from { -webkit-filter: grayscale(0); }
+  to   { -webkit-filter: grayscale(1); }
+}
+@-webkit-keyframes blur-anim {
+  from { -webkit-filter: blur(0); }
+  to   { -webkit-filter: blur(10px); }
+}
+@-webkit-keyframes spin {
+  from { -webkit-transform: rotateZ(0deg); }
+  to   { -webkit-transform: rotateZ(360deg); }
+}
+.sepia {
+  -webkit-animation: sepia-anim 2s ease-in-out;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-iteration-count: infinite;
+}
+.grayscale {
+  -webkit-animation: grayscale-anim 2s ease-in-out;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-iteration-count: infinite;
+}
+.blur {
+  -webkit-animation: blur-anim 0.5s linear;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-iteration-count: infinite;
+}
+.spin {
+  -webkit-animation: spin 10s linear;
+  -webkit-animation-iteration-count: infinite;
+}
+/*.filter {
+  -webkit-filter: url(#myfilter);
+}*/
+article > section > div {
+  border-radius: 10px;
+}
+#pic {
+  height: 200px;
+  border-radius: 10px;
+  /* hw accel filters */
+  /*transform: translateZ(0);*/
+}
+#chrome-logo {
+  height: 256px;
+  position: absolute;
+  bottom: -4em;
+  right: -4em;
+  opacity: 0.2;
+  -webkit-filter: grayscale(0.3) blur(8px);
+  z-index: -1;
+}
+.drop-shadow {
+  padding: 1em 1em 0.8em 1em;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset, 0 5px 10px #ccc;
+}
+@media screen and (max-width: 1000px) {
+  html, body {
+    overflow: auto;
+  }
+  body {
+    font-size: 24px;
+  }
+  details {
+    max-width: 275px;
+    font-size: 24px;
+  }
+  hgroup {
+    margin-bottom: 0;
+  }
+  hgroup h2 {
+    margin-top: 1.5em;
+  }
+  #pic {
+    min-height: 175px;
+    max-width: 315px;
+    max-height: 175px;
+    height: auto;
+  }
+  .drop-shadow {
+    padding: 0.5em 0.5em 0.2em 0.5em;
+  }
+  .cols {
+    -webkit-columns: 2;
+    columns: 2;
+    width: auto;
+  }
+  .cols > span {
+    margin: 0 0 40px 0;
+  }
+  output {
+    font-size: 24px !important;
+  }
+  article > section {
+    margin: 0.5em 0;
+  }
+  article > section button {
+    font-size: 48px;
+    margin: 0 40px 0 0
+  }
+  article > section:nth-child(2) {
+    height: 89px;
+  }
+  article > section:last-of-type > span {
+    display: block; 
+    margin-bottom: 5px;
+  }
+  input[type="range"] {
+    display: block;
+    margin: 15px 0 0 0;
+    width: 300px;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+
+
+
+
+<hgroup>
+  <h2>CSS Filter Effects</h2>
+</hgroup>
+
+<article>
+  <section>
+    <div class="drop-shadow">
+      <img id="pic" src="demo.jpg" class="">
+    </div>
+  </section>
+  <section>
+    <output>-webkit-filter: none;</output>
+  </section>
+  <section class="cols">
+    <span><span>blur</span><input type="range" oninput="set(&#39;blur&#39;, this.value + &#39;px&#39;);" value="0" step="1" min="0" max="10"></span>
+    <span><span>grayscale</span><input type="range" oninput="set(&#39;grayscale&#39;, this.valueAsNumber);" value="0" step="0.1" min="0" max="1"></span>
+    <span><span>drop-shadow</span><input type="range" oninput="set(&#39;drop-shadow&#39;, this.value + &#39;px &#39; + this.value + &#39;px 20px black&#39;);" value="0" step="1" min="0" max="100"></span>
+    <span><span>sepia</span><input type="range" oninput="set(&#39;sepia&#39;, this.valueAsNumber);" value="0" step="0.1" min="0" max="1"></span>
+    <span><span>brightness</span><input type="range" oninput="set(&#39;brightness&#39;, this.valueAsNumber);" value="0" step="0.1" min="0" max="10"></span>
+    <span><span>contrast</span><input type="range" oninput="set(&#39;contrast&#39;, this.valueAsNumber);" value="0" step="0.1" min="0" max="10"></span>
+    <span><span>hue-rotate</span><input type="range" oninput="set(&#39;hue-rotate&#39;, this.value + &#39;deg&#39;);" value="0" step="30" min="0" max="360"></span>
+    <span><span>invert</span><input type="range" oninput="set(&#39;invert&#39;, this.valueAsNumber);" value="0" step="0.1" min="0" max="1"></span>
+    <span><span>saturate</span><input type="range" oninput="set(&#39;saturate&#39;, this.valueAsNumber);" value="0" step="0.1" min="0" max="10"></span>
+    <span><span>opacity</span><input type="range" oninput="set(&#39;opacity&#39;, this.valueAsNumber);" value="0" step="0.1" min="0" max="1"></span>
+    <span><button onclick="reset()" style="margin-top:10px;">reset</button></span>
+  </section>
+  <section>
+    <span>Animations:</span>
+    <button onclick="go(this, &#39;blur&#39;)" class="">blur</button>
+    <button onclick="go(this, &#39;grayscale&#39;)">grayscale</button>
+    <button onclick="go(this, &#39;sepia&#39;)">sepia</button>
+    <button onclick="stop()">stop</button>
+  </section>
+</article>
+
+<img id="chrome-logo" src="logo.png">
+
+
+
+<script>
+var FILTER_VALS = {};
+var el = document.querySelector('img');
+
+function go(me, className) {
+  var activeButton = document.querySelector('button.active');
+  if (activeButton) {
+    activeButton.classList.remove('active');
+    el.classList.remove(activeButton.textContent);
+  }
+
+  me.classList.add('active');
+  el.classList.toggle(className);
+}
+
+function stop() {
+  var activeButton = document.querySelector('button.active');
+  if (activeButton) {
+    activeButton.classList.remove('active');
+  }
+  el.className = '';
+}
+
+function reset() {
+  FILTER_VALS = {};
+  render();
+  document.querySelector('output').textContent = '-webkit-filter: none;';
+  el.className = '';
+
+  var ranges = document.querySelectorAll('input[type="range"]');
+  for (var i = 0, r; r = ranges[i]; i++) {
+    r.value = r.min;
+  }
+}
+
+function set(filter, value) {
+  FILTER_VALS[filter] = typeof value == 'number' ? Math.round(value * 10) / 10 : value;
+  if (value == 0 || (typeof value == 'string' && value.indexOf('0') == 0)) {
+    delete FILTER_VALS[filter];
+  }
+  render();
+}
+
+function render() {
+  var vals = [];
+  Object.keys(FILTER_VALS).sort().forEach(function(key, i) {
+    vals.push(key + '(' + FILTER_VALS[key] + ')');
+  });
+  var val = vals.join(' ');
+  el.style.webkitFilter = val;
+  document.querySelector('output').textContent = '-webkit-filter: ' + (val ? val : 'none') + ';';
+}
+
+function jsonFlickrFeed(feed) {
+  var items = feed.items;
+  el.src = items[Math.floor(Math.random() * items.length)].media.m;
+  el.onload = function(e) {
+    this.parentElement.classList.add('drop-shadow');
+  }
+}
+
+window.addEventListener('keydown', function(e) {
+  if (e.keyCode == 27) { // ESC
+    document.querySelector('details').open = false;
+  }
+}, false);
+</script>
+
+
+
+
+</body>
+</html>
