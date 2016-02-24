@@ -1,0 +1,191 @@
+<script type='text/javascript' src='jquery.min.js'></script>
+<script type='text/javascript' src='three.min.js'></script>
+<script type='text/javascript' src='codemirror/lib/codemirror.js'></script>
+<link type='text/css' rel='stylesheet' href='codemirror/lib/codemirror.css'></link>
+<link type='text/css' rel='stylesheet' href='codemirror/theme/3024-day.css'></link>
+<script src="codemirror/mode/javascript/javascript.js"></script>
+<!-- <script src="codemirror/mode/htmlembedded/htmlembedded.js"></script> -->
+<!-- <script src="codemirror/mode/htmlmixed/htmlmixed.js"></script> -->
+<style>
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+*::-webkit-scrollbar {
+    width: 0 !important;
+}
+textarea, input {
+    outline: none;
+    -webkit-appearance: none;
+}
+textarea, canvas, .CodeMirror {
+    width: 50%;
+    height: 100%;
+    /*border: 1px solid black;*/
+    /*float: right;*/
+    float: left;
+    /*font: 2rem/1.5 monospace;*/
+}
+</style>
+<!-- <div class='textarea' contenteditable='true'></div> 
+renderer.setClearColor(0xEEEEEE, 1.0);
+renderer.clear();
+
+var camera = new THREE.PerspectiveCamera(45, width/height, 1, 10000);
+camera.position.z = 300;
+
+var scene = new THREE.Scene();
+var box = new THREE.Mesh(new THREE.BoxGeometry(50,50,50),
+new THREE.MeshBasicMaterial({color: 0x000000}));
+scene.add(box);
+
+renderer.render(scene, camera);
+
+function animate(t) {
+  // spin the camera in a circle
+  camera.position.x = Math.sin(t/1000)*300;
+  camera.position.y = 150;
+  camera.position.z = Math.cos(t/1000)*300;
+  // you need to update lookAt every frame
+  camera.lookAt(scene.position);
+  // renderer automatically clears unless autoClear = false
+  renderer.render(scene, camera);
+  // window.requestAnimationFrame(animate, renderer.domElement);
+};
+
+animate(new Date().getTime());    
+
+
+-->
+<textarea autofocus spellcheck='false'></textarea>
+<script>
+(function() {
+
+    var hidden = "hidden";
+
+    // Standards:
+    if (hidden in document) {
+        document.addEventListener("visibilitychange", onchange);
+    } else if ((hidden = "mozHidden") in document) {
+        document.addEventListener("mozvisibilitychange", onchange);
+    } else if ((hidden = "webkitHidden") in document) {
+        document.addEventListener("webkitvisibilitychange", onchange);
+    } else if ((hidden = "msHidden") in document) {
+        document.addEventListener("msvisibilitychange", onchange);
+    } else if ("onfocusin" in document) {
+        document.onfocusin = document.onfocusout = onchange;
+    } else {
+        window.onpageshow = window.onpagehide = window.onfocus = window.onblur = onchange;
+    }
+
+    function onchange(evt) {
+        var v = "visible",
+            h = "hidden",
+            evtMap = {
+                focus: v,
+                focusin: v,
+                pageshow: v,
+                blur: h,
+                focusout: h,
+                pagehide: h
+            };
+
+        evt = evt || window.event;
+        if (evt.type in evtMap) {
+            document.body.className = evtMap[evt.type];
+        } else {
+            document.body.className = this[hidden] ? "hidden" : "visible";
+        }
+    }
+    if (document[hidden] !== undefined) {
+        onchange({
+            type: document[hidden] ? "blur" : "focus"
+        });
+    }
+
+})();
+log = console.log.bind(console);
+window.location.refresh = window.location.reload;
+
+var eval = this.execScript || eval;
+var width = $("textarea").width() //document.body.clientWidth/2;
+var height = $("textarea").height() //document.body.clientHeight
+
+$(function() {
+    $("textarea").val(localStorage.getItem("code") || "")
+    $("textarea").keyup(function() {
+        localStorage.setItem("code", $(this).val())
+        
+        var renderer = new THREE.WebGLRenderer({
+            antialias: true
+        });
+        renderer.setSize(width, height);
+        try {
+            $("canvas").remove()
+            eval($(this).val())
+            document.body.appendChild(renderer.domElement);
+        }
+        catch (e) {
+
+        }
+    }).keyup()
+})
+
+// get out of the habit of saving with ctrl+s
+$(document).on("keydown", function(e) {
+    if (e.which === 83 && (e.ctrlKey || e.metaKey)) {
+    	e.preventDefault()
+        $("textarea").keyup()
+    }
+})
+// $(document).on("click", "canvas", function() {
+//     $("textarea").keyup()
+// })
+
+
+
+$(window).focus(function() {
+	window.location.refresh();
+});
+// setInterval(function() {
+//     if (localStorage.getItem("in") === "false") {
+//         window.location.reload();
+//     }
+// }, 100)
+
+
+$(document).on("mouseenter", "canvas, textarea", function() {
+    
+    // log(localStorage.getItem("in"))
+
+    // if (localStorage.getItem("in") == false) {    
+    //     log(localStorage.getItem("in"))
+    //     // $("textarea").keyup()
+    //     // window.location.reload();
+    //     window.location.refresh();
+
+    // }
+    // setTimeout(function() {
+            localStorage.setItem("in", true)
+
+    log(localStorage.getItem("in"))
+// }, 500)
+
+
+}).on("mouseleave", "canvas, textarea", function() {
+    localStorage.setItem("in", false)
+    log(localStorage.getItem("in"))
+})
+
+// console.log(localStorage.getItem("refresh"))
+// var refresh = localStorage.getItem("refresh")
+// refresh++
+// localStorage.setItem("refresh", refresh)
+// $("textarea").val(localStorage.getItem("in")+" "+localStorage.getItem("refresh"))
+
+
+
+
+
+</script>

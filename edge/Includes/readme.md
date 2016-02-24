@@ -1,1 +1,0 @@
-This folder contains shared resources by the demos in the old website. Please don't add or modify anything.
